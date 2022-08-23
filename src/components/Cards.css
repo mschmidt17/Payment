@@ -1,0 +1,29 @@
+.cards {
+	text-align: center;
+	color: var(--Verdarviolet);
+	max-width: 30rem;
+	margin-right: auto;
+}
+
+.cards p:first-of-type {
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.cards p:last-of-type {
+	opacity: .8;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.cards .btn-primary {
+	width: 60%;
+}
+
+@media screen and (max-width: 750px) {
+	.cards {
+		margin: auto;
+	}
+}
